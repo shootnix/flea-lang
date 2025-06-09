@@ -1,0 +1,19 @@
+my Int a = 10;
+my Int b = 20;
+if a > b {
+    say "a is bigger than b";
+}
+elsif b > a {
+    say "b is bigger than a";
+}
+else {
+    say "a and b are equals";
+}
+
+with a {
+    say "a is defined";
+}
+
+without b {
+    say "b is undefined";
+}

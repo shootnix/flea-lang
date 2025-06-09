@@ -1,0 +1,7 @@
+role greeter {
+    has Str name;
+
+    method greet() returns Str {
+        return self.name ~ " - hello!";
+    }
+}

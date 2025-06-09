@@ -1,0 +1,11 @@
+my Int var1;
+my Int var2 = 2;
+my Int var3 = var2;
+my Str name = "John Doe";
+
+my Rat salary = 2000.01;
+
+
+say name.uc;
+
+my Bool isEmpty = True;

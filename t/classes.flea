@@ -1,0 +1,25 @@
+class Human {
+    has Str name;
+    has Int age is rw;
+    has Str nationality;
+    has Str sex;
+
+    has public Int vatNumber;
+
+    my public Int counter = 0;
+
+
+    public method toString() returns Str {
+        Human.counter += 1;
+        return "Hello, I'm " ~ self.name ~ ", I'm " ~ self.age ~ " years old. I'm from " ~ self.nationality;
+    }
+}
+
+my Human sarah = Human.new(name => "Sarah", age => 28, nationality => "America", sex => "twice a week");
+
+say Human.counter;
+
+my class Employee is Human {
+    has Rat salary;
+    has Str company is rw;
+}

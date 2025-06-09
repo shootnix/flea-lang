@@ -1,0 +1,6 @@
+my Str world = "world";
+my Str hello = "hello";
+
+say hello.ucfirst ~ ", " ~ world ~ "!";
+say "${hello}, ${world}";
+say hello.ucfirts ~ ", ${world}";

@@ -1,0 +1,21 @@
+sub sayHello() {
+    say "Hello";
+}
+
+multi greet(Str name) {
+    say "Hello, " ~ name;
+}
+
+multi greet(Str name, Int age) {
+    say "Hello, " ~ name ~ ". You are " ~ age ~ " years old";
+}
+
+sub square(Int x) returns Int {
+    return x * x;
+}
+
+sayHello;
+greet "Sarah";
+greet "Sarah", 28;
+
+say square 2;

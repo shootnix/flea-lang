@@ -1,0 +1,3 @@
+my Str animals = "snake", "dog", "cat";
+my Str pets[3] = "dog", "cat", "mouse";
+my Int a = 1..10;

@@ -1,0 +1,2 @@
+say "hello, world";
+"hello, world".say;
