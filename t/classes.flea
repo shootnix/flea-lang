@@ -23,3 +23,5 @@ my class Employee is Human {
     has Rat salary;
     has Str company is rw;
 }
+
+my Employee sarah = Employee.new()
